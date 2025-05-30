@@ -88,7 +88,9 @@ button:hover, button:focus {
 
 #paste-section {
   margin-top: 18px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #show-paste-box {
@@ -106,22 +108,22 @@ button:hover, button:focus {
 
 #paste-box {
   margin-top: 10px;
-  text-align: left;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #paste-input {
-  width: 100%;
-  border-radius: 6px;
-  border: 1.5px solid #d1d5db;
-  padding: 8px;
-  font-size: 14px;
+  width: 90%;
+  max-width: 320px;
   margin-bottom: 8px;
-  resize: vertical;
-  background: #f9fafb;
-  min-height: 70px;
+  text-align: left;
 }
 
 #preview-paste {
+  align-self: center;
   background: #0078d7;
   color: #fff;
   border: none;
