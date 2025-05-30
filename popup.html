@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Extractor</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    body { font-family: sans-serif; min-width: 300px; }
+    .svg-thumb { width: 64px; height: 64px; border: 1px solid #ccc; margin: 4px; display: inline-block; cursor: pointer; }
+    #options { display: none; }
+    #svg-preview { max-width: 200px; max-height: 200px; }
+  </style>
+</head>
+<body>
+  <h3>SVGs on this page</h3>
+  <div id="svg-list"></div>
+  <div id="options">
+    <h4>Download as:</h4>
+    <button id="download-svg">SVG</button>
+    <button id="download-png">PNG</button>
+    <button id="download-jpg">JPG</button>
+    <div id="svg-preview"></div>
+    <button id="back">Back</button>
+  </div>
+  <div id="paste-section" style="margin-top:16px;">
+    <button id="show-paste-box">Try pasting HTML here</button>
+    <div id="paste-box" style="display:none; margin-top:8px;">
+      <textarea id="paste-input" rows="5" style="width:100%;" placeholder="Paste SVG or HTML code here"></textarea>
+      <button id="preview-paste">Preview SVG</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
