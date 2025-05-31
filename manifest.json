@@ -4,10 +4,11 @@
   "version": "1.0",
   "description": "Extract and download SVGs from any web page.",
   "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html"
   },
   "icons": {
-    "128": "./SVG_logo.png"
+    "256": "./SVG_Extractor_Logo.png"
   }
 }

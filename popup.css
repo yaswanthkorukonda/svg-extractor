@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: "Alata", Arial, sans-serif;
   min-width: 320px;
   background: #f8f9fa;
   margin: 0;
@@ -7,7 +7,8 @@ body {
   color: #222;
 }
 
-h3, h4 {
+h3,
+h4 {
   margin-top: 0;
   color: #2c3e50;
 }
@@ -32,17 +33,17 @@ h3, h4 {
   justify-content: center;
   cursor: pointer;
   transition: box-shadow 0.2s, border-color 0.2s;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 .svg-thumb:hover {
-  border-color: #0078d7;
-  box-shadow: 0 2px 8px rgba(0,120,215,0.08);
+  border-color: #ff9900;
+  box-shadow: 0 2px 8px rgba(0, 120, 215, 0.08);
 }
 
 #options {
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   padding: 16px;
   margin-bottom: 12px;
   text-align: center;
@@ -63,7 +64,7 @@ h3, h4 {
 }
 
 button {
-  background: #0078d7;
+  background: #ff9900;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -73,8 +74,9 @@ button {
   cursor: pointer;
   transition: background 0.2s;
 }
-button:hover, button:focus {
-  background: #005fa3;
+button:hover,
+button:focus {
+  background: #ff9900;
 }
 
 #back {
@@ -82,7 +84,8 @@ button:hover, button:focus {
   color: #333;
   margin-top: 10px;
 }
-#back:hover, #back:focus {
+#back:hover,
+#back:focus {
   background: #bdbdbd;
 }
 
@@ -95,14 +98,15 @@ button:hover, button:focus {
 
 #show-paste-box {
   background: #fff;
-  color: #0078d7;
-  border: 1.5px solid #0078d7;
+  color: #ff9900;
+  border: 1.5px solid #ff9900;
   padding: 8px 18px;
   border-radius: 6px;
   font-weight: 500;
   margin-top: 8px;
 }
-#show-paste-box:hover, #show-paste-box:focus {
+#show-paste-box:hover,
+#show-paste-box:focus {
   background: #e3f0fc;
 }
 
@@ -124,7 +128,7 @@ button:hover, button:focus {
 
 #preview-paste {
   align-self: center;
-  background: #0078d7;
+  background: #ff9900;
   color: #fff;
   border: none;
   border-radius: 6px;
