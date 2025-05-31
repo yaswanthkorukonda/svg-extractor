@@ -32,6 +32,18 @@
     </style>
   </head>
   <body>
+    <div id="paste-section">
+      <button id="show-paste-box">Got SVG Code? Paste it!</button>
+      <div id="paste-box" style="display: none; margin-top: 8px">
+        <textarea
+          id="paste-input"
+          rows="5"
+          style="width: 100%"
+          placeholder="Paste SVG or HTML code here"
+        ></textarea>
+        <button id="preview-paste">Preview SVG</button>
+      </div>
+    </div>
     <h3>SVGs on this page</h3>
     <div id="svg-list"></div>
     <div id="options">
@@ -53,18 +65,6 @@
       <button id="download-jpg">JPG</button>
       <div id="svg-preview"></div>
       <button id="back">Back</button>
-    </div>
-    <div id="paste-section" style="margin-top: 16px">
-      <button id="show-paste-box">Try pasting HTML here</button>
-      <div id="paste-box" style="display: none; margin-top: 8px">
-        <textarea
-          id="paste-input"
-          rows="5"
-          style="width: 100%"
-          placeholder="Paste SVG or HTML code here"
-        ></textarea>
-        <button id="preview-paste">Preview SVG</button>
-      </div>
     </div>
     <script src="popup.js"></script>
   </body>
