@@ -4,7 +4,10 @@
   "version": "1.0",
   "description": "Extract and download SVGs from any web page.",
   "permissions": ["activeTab", "scripting", "downloads"],
-  "host_permissions": ["<all_urls>"],
+  "host_permissions": [
+  "http://*/*",
+  "https://*/*"
+],
   "action": {
     "default_popup": "popup.html"
   },
