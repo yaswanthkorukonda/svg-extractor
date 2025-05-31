@@ -26,7 +26,7 @@ function showOptions(idx) {
 
 function backToList() {
   document.getElementById("options").style.display = "none";
-  document.getElementById("svg-list").style.display = "block";
+  document.getElementById("svg-list").style.display = "flex";
 }
 
 function download(type) {

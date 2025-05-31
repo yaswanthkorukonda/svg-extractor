@@ -19,7 +19,7 @@ h4 {
   gap: 10px;
   margin-bottom: 12px;
   min-height: 80px;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .svg-thumb {
@@ -29,18 +29,30 @@ h4 {
   border-radius: 8px;
   background: #fff;
   display: flex;
+  margin: 4px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: box-shadow 0.2s, border-color 0.2s;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
 }
+
+.svg-thumb svg {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
 .svg-thumb:hover {
   border-color: #ff9900;
   box-shadow: 0 2px 8px rgba(0, 120, 215, 0.08);
 }
 
 #options {
+  display: none;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -78,7 +90,7 @@ button:hover,
 button:focus {
   background: #e3f0fc;
   color: #ff9900;
-    border: 1.5px solid #ff9900;
+  border: 1.5px solid #ff9900;
 }
 
 #back {
@@ -139,7 +151,7 @@ button:focus {
   margin-left: 0;
 }
 #preview-paste:hover,
-#preview-paste:focus{
+#preview-paste:focus {
   background: #e3f0fc;
   color: #ff9900;
   border: 1.5px solid #ff9900;
