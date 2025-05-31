@@ -9,7 +9,7 @@
 - 🔍 Automatically detects and displays all SVGs on the current webpage
 - 👆 Click any SVG to preview it in full size
 - 📥 Download SVGs in **SVG**, **PNG**, and **JPG** formats
-- 🧪 "Try pasting that SVG here" option to manually preview and download SVG code
+- 🧪 Text box option to manually preview your code and download SVG
 - 🎯 Simple, fast, and privacy-friendly (no tracking or analytics)
 
 ---
@@ -38,6 +38,6 @@ You can also load the extension manually in your browser:
 
 ## 📬 Support
 
-If you encounter any issues or have suggestions, feel free to open an [issue](https://github.com/yaswanthkorukonda/svg-extractor) or submit a pull request.
+If you encounter any issues or have suggestions, feel free to open an [issue](https://github.com/yaswanthkorukonda/svg-extractor/issues) or submit a pull request.
 
 ---
