@@ -18,6 +18,8 @@
 
 ![](./screenshots/promotionaltile.png)
 ![](<screenshots/screenshot 1.png>)
+![](<screenshots/screenshot 2.png>)
+![](<screenshots/screenshot 3.png>)
 
 ---
 
@@ -27,6 +29,8 @@ You can also load the extension manually in your browser:
 
 1. Clone or download this repository.
 2. Open your browser's extensions page.
+    - chrome://extensions/
+    - edge://extensions/
 3. Enable "Developer Mode".
 4. Click **Load unpacked** and select the project folder.
 
@@ -34,6 +38,6 @@ You can also load the extension manually in your browser:
 
 ## 📬 Support
 
-If you encounter any issues or have suggestions, feel free to open an [issue](https://github.com/yourusername/svg-extractor/issues) or submit a pull request.
+If you encounter any issues or have suggestions, feel free to open an [issue](https://github.com/yaswanthkorukonda/svg-extractor) or submit a pull request.
 
 ---
