@@ -23,7 +23,12 @@
 
 ---
 
-## 💻 Installation (Manual)
+## 💻 Installation
+
+This Extension is available on Microsoft Edge at "[SVG Extractor on Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/svg-extractor/gkmgmdbmeeekpdibpebagddejkomcdko)"
+![](./screenshots/SVG-Extractor-OnEdge.png)
+
+## 🧑‍💻 To Install Manually,
 
 You can also load the extension manually in your browser:
 
