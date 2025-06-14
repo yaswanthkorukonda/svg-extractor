@@ -2,6 +2,8 @@
 
 **SVG Extractor** is a lightweight and easy-to-use browser extension that lets you extract, preview, and download all SVG images from any webpage. Whether you're a developer, designer, or just exploring vector graphics online, this tool helps you grab SVGs quickly and efficiently.
 
+[![Made by Yaswanth Korukonda](https://img.shields.io/badge/Work%20by-Yaswanth%20Korukonda-red)](https://github.com/yaswanthkorukonda)
+
 ---
 
 ## 🌟 Features
